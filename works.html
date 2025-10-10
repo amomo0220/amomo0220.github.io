@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Works | amomo0220</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">メインへスキップ</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">amomo0220</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a class="active" href="works.html">Works</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Works</h1>
+    <p>（少しずつ追加していきます）</p>
+
+    <div class="grid cards">
+      <article id="cloudwatch-alert" class="card">
+        <h2>CloudWatch × Lambda × Slack 通知</h2>
+        <p>spring.log の ERROR を自動検知し Slack に通知。再通知抑止・しきい値制御に対応予定。</p>
+        <ul class="meta">
+          <li>AWS: CloudWatch Logs / Lambda / SNS or Webhook</li>
+          <li>Lang: Python</li>
+        </ul>
+        <div class="links">
+          <a class="btn sm" href="#" aria-disabled="true">GitHub（近日）</a>
+          <a class="btn sm ghost" href="#" aria-disabled="true">記事（近日）</a>
+        </div>
+      </article>
+
+      <article id="spring-rds" class="card">
+        <h2>Spring Boot × RDS × CloudWatch</h2>
+        <p>Web API と CloudWatch ログ連携。500系検知・通知とダッシュボード化のデモ。</p>
+        <ul class="meta">
+          <li>Stack: Spring Boot / RDS (PostgreSQL) / CloudWatch Agent</li>
+          <li>Lang: Java</li>
+        </ul>
+        <div class="links">
+          <a class="btn sm" href="#" aria-disabled="true">GitHub（近日）</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2025 amomo0220</small>
+    </div>
+  </footer>
+</body>
+</html>
