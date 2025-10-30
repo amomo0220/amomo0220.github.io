@@ -1,0 +1,28 @@
+- title: "Languages / Frameworks"
+  items:
+    - { name: "Java (Spring Boot)", years: "6年",   stars: "★★★★☆", note: "Web API開発・運用経験あり" }
+    - { name: "Python (Flask)",     years: "4年",   stars: "★★★★☆", note: "Web API開発経験あり" }
+    - { name: "VB.NET (ASP.NET)",   years: "2.5年", stars: "★★★☆☆", note: "Web開発・運用経験あり" }
+    - { name: "JavaScript (Bootstrap)", years: "3年", stars: "★★★★☆", note: "フロントエンド開発経験あり" }
+    - { name: "TypeScript (Angular)", years: "3年", stars: "★★★★☆", note: "Web開発・運用経験あり" }
+    - { name: "HTML / CSS",         years: "6年",   stars: "★★★★☆", note: "Webページ構築・UI調整経験あり" }
+
+- title: "AWS"
+  items:
+    - { name: "Lambda",            years: "5年", stars: "★★★★★", note: "設計〜運用（Slack通知・自動化など）" }
+    - { name: "CloudWatch",        years: "3年", stars: "★★★★☆", note: "ログ・メトリクス・アラーム設計" }
+    - { name: "S3",                years: "4年", stars: "★★★★☆", note: "バックアップ・静的ホスティング構築" }
+    - { name: "RDS / DynamoDB",    years: "3年", stars: "★★★★☆", note: "データ構造設計・運用経験あり" }
+    - { name: "EC2",               years: "2年", stars: "★★★☆☆", note: "開発・検証・本番の運用・構築" }
+    - { name: "SQS",               years: "1年", stars: "★★☆☆☆", note: "非同期処理・バッチ連携で利用" }
+
+- title: "OS / DB / Tools"
+  items:
+    - { name: "Windows / Linux", years: "6年 / 3年", stars: "★★★☆☆", note: "開発・検証・サーバ運用・ログ調査" }
+    - { name: "PostgreSQL / SQL Server / MySQL", years: "3.5年 / 2.5年 / 0.5年", stars: "★★★☆☆", note: "運用・移管・チューニングの基礎" }
+    - { name: "Docker", years: "2年", stars: "★★★☆☆", note: "ローカル開発環境の構築に使用" }
+    - { name: "VSCode", years: "4年", stars: "★★★★☆", note: "メイン開発環境として利用" }
+
+- title: "Ops / Monitoring Design"
+  items:
+    - { name: "ログ設計・監視設計・Slack通知設計", years: "2年", stars: "★★★★☆", note: "エラー検知と運用改善が得意" }

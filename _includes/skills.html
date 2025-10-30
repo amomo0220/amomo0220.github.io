@@ -1,0 +1,9 @@
+{% assign groups = site.data.skills %}
+{% for group in groups %}
+  <h2 class="font-semibold mt-4">{{ group.title }}</h2>
+  <ul class="list-disc ml-5">
+    {% for s in group.items %}
+      <li>{{ s.name }} — {{ s.years }} — {{ s.stars }} <span class="text-gray-500">({{ s.note }})</span></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
