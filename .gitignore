@@ -1,0 +1,17 @@
+# Jekyll build outputs
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/
+
+# Node（使う可能性を見越して）
+node_modules/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Ruby
+*.gem
