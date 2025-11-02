@@ -23,7 +23,7 @@ html, body { scroll-behavior: smooth; }
 .stars { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; letter-spacing:.06em; color:#f59e0b; }
 .note { color:#6b7280; font-size:.9rem; }
 
-/* Projectsのピル */
+/* Worksのピル */
 .pill { background:#f2f3f5; border-radius:999px; padding:.35rem .7rem; display:inline-block; }
 
 /* SNSリンク */
