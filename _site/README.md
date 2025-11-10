@@ -2,7 +2,8 @@
 
 静的 HTML + CSS のミニマム構成。GitHub Pages で公開。
 
-## 公開手順
+## 公開手順（初回）
+※初回以降は、 `main` ブランチにpushすることで更新可能。
 1. GitHub でリポジトリ作成（例: `portfolio`）
 2. 本リポジトリに `index.html` ほか一式を追加して `main` に push
 3. Settings → Pages → Branch を `main` / Folder を `/ (root)` に設定 → Save
@@ -12,9 +13,9 @@
 
 以下コマンドを実行
 ```bash
+bundle install
 bundle exec jekyll serve --livereload --host 0.0.0.0 --port 4000 --trace
 ```
-
 
 ## 今後の拡張（予定）
 - About の内容を充実させる
