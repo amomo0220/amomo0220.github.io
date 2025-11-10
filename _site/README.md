@@ -26,3 +26,7 @@ bundle exec jekyll serve --livereload --host 0.0.0.0 --port 4000 --trace
     - Skills を見やすく
     - テーマカラーの変更
     - （各タイトル等をイラストにしたい！）
+
+# 各種リンク
+- `Contact` 欄のアイコン
+    - https://simpleicons.org
